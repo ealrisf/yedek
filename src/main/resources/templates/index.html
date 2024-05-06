@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1000/xhtml">
+<head th:replace="common/header :: common-header"/>
+  
+
+<body>
+
+  <div th:replace="common/header :: navbar"/>
+
+    <div class="container"> 
+      <div class="row"> 
+      
+ 	 
+      
+      <!-- carousel -->
+      <div class="col-xs-8"> 
+      <div class="card">
+        <div class="card-body">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img src="https://e7.pngegg.com/pngimages/738/247/png-clipart-book-book-thumbnail.png" alt="First slide">
+                <div class="carousel-caption">
+                  <h4> First Thumbnail </h4>
+                  <p> we write here</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://e7.pngegg.com/pngimages/738/247/png-clipart-book-book-thumbnail.png" alt="Second slide">
+                <div class="carousel-caption">
+                  <h4> Second Thumbnail </h4>
+                  <p> we write here</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://e7.pngegg.com/pngimages/738/247/png-clipart-book-book-thumbnail.png" alt="Third slide">
+                <div class="carousel-caption">
+                  <h4> Third Thumbnail </h4>
+                  <p> we write here</p>
+                </div>
+              </div>
+              <!-- Add more slides as needed -->
+            </div>
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="col-4 logo-container">
+  <img src="/image/Logo.png" class="img-responsive logo-img" style="margin-right: 200px;" />
+
+</div>
+
+  </div>
+  <hr />
+  
+  <div class="row" id="imageRow">
+  <div class="col-xs-4">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <img src="image/bestseller.png" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-4">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <img src="image/hours.png" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-4">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <img src="image/faq.png" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  
+  <div>
+  	<div class="home-headline"><span>Featured Books</span></div>
+  	<hr style="margin-top: -15px;"/>
+  </div>
+  
+   
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000"> <!-- Set data-interval to the desired interval in milliseconds -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    
+      <div class="row">
+        <div class="col-2">
+          <img class="d-block img-fluid" src="/image/book1.png" alt="First slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block img-fluid" src="/image/book1.png" alt="Second slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block  img-fluid" src="/image/book1.png" alt="Third slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block  img-fluid" src="/image/book1.png" alt="Fourth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block  img-fluid" src="/image/book1.png" alt="Fifth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block  img-fluid" src="/image/book1.png" alt="Sixth slide">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+    
+      <div class="row">
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Seventh slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Eighth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Ninth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Tenth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Eleventh slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Twelfth slide">
+        </div>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+    
+      <div class="row">
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Thirteenth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Fourteenth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Fifteenth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Sixteenth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Seventeenth slide">
+        </div>
+        <div class="col-2">
+          <img class="d-block w-100 img-fluid" src="/image/book1.png" alt="Nineteenth slide">
+        </div>
+      </div>
+    </div>
+    <!-- Add more carousel items as needed -->
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+  
+  
+ 
+</div><!-- end of container -->
+
+
+  
+  
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<div th:replace="common/header :: body-bottom-scripts" />
+
+
+
+</body>
+</html>

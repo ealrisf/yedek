@@ -1,0 +1,87 @@
+body {
+  padding-top: 20px;	
+  padding-bottom: 20px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #333;
+}
+
+
+.navbar-nav > li > a {
+    padding-right: 40px; /* Adjust the value to your preference */
+}
+
+
+
+
+.carousel-control-next-icon {
+    background-color: #333; /* Set your desired color */
+}
+
+.carousel-control-prev-icon {
+    background-color: #333; /* Set your desired color */
+}
+.carousel-indicators li {
+    background-color: #333;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: #333;
+}
+
+
+.container .logo-img {
+    margin-right: 100px; /* Adjust the margin as needed */
+}
+#imageRow {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+}
+
+#imageRow .col-xs-4 {
+  flex: 0 0 33.33%; /* Each column should take up one third of the row */
+  max-width: 33.33%;
+}
+
+.panel {
+  margin-bottom: 20px; /* Add some spacing between panels */
+}
+
+.panel-body {
+  text-align: center; /* Center the image horizontally */
+}
+
+.panel-body img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+}
+
+.container {
+  width: 90%;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 1px solid red;
+}
+.home-headline{
+	font-family: 'Times New Roman', Times, serif;
+	font-size:24px;
+	color: #ffff;
+	margin: auto;
+	text-align: center;
+	margin-top: -13px;
+	
+}
+
+.home-headline span{
+	background-color: #231F20;
+	padding: 5px 22px;
+}
+
